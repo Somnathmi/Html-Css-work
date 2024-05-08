@@ -1,0 +1,100 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+.main_box{
+    background-color:white;
+    height:100vh;
+}
+
+/*.btn_one i {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}*/
+
+.sidebar_menu {
+    position: fixed;
+   /* left: -300px;*/
+    height: 100vh;
+    width: 300px;
+    background-color: #0082e6;
+    box-shadow: 0 0 6px;
+    transition: all 0.3s linear;
+}
+
+.sidebar_menu .logo{
+    position:absolute;
+    width:100%;
+    line-height:60px;
+    box-shadow:0 0 4px ;
+    height:60px;
+}
+.sidebar_menu .logo #HyperLink6 {
+        
+        position: absolute;
+        left: 50px;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+}
+
+    .sidebar_menu .btn_two i {
+        color: gray;
+        font-size: 25px;
+        line-height: 60px;
+        position: absolute;
+        left: 275px;
+        /* opacity:0;*/
+        cursor: pointer;
+        transition: all 0.3s linear;
+    }
+
+.sidebar_menu .menu {
+    position:absolute;
+    width:100%;
+    top:80px;
+}
+
+.sidebar_menu .menu li {
+    margin-top:6px;
+    padding:14px 20px;
+}
+
+.sidebar_menu .menu i, #HyperLink1,#HyperLink2,#HyperLink3,#HyperLink4,#HyperLink5{
+    color:white;
+    text-decoration:none;
+    font-size:15px;
+}
+
+.sidebar_menu .menu i {
+    padding-right:8px;
+}
+
+#check {
+    display:none;
+}
+
+.sidebar_menu .menu li:hover {
+    box-shadow: 0 0 4px #ff6a00;
+}
+/*
+.btn_one i:hover {
+    font-size:40px;
+}
+*/
+.btn_two i:hover {
+    font-size: 30px;
+}
+
+#check:checked ~ .sidebar_menu {
+    left:0;
+}

@@ -1,0 +1,90 @@
+﻿* {
+    margin:0;
+    padding:0;
+    color:white;
+    font-family:sans-serif;
+}
+
+#navbar{
+    height:60px;
+    width:2000px;
+    background-color:#0082e6;
+    margin-top:20px;
+   
+
+}
+
+button{
+    background-color:blue;
+}
+
+#logo{
+    color:white;
+    font-size:25px;
+    margin-left:30px;
+}
+
+a{
+    margin-right:20px;
+    align-items:end;
+    text-decoration:none;
+}
+a:hover{
+    background:#1b9bff;
+    transition:.5s;
+}
+
+.checkbtn{
+    font-size:20px;
+    color:white;
+    float:right;
+    line-height:80px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none;
+}
+#check{
+    display:none;
+}
+
+#about{
+    margin-left:700px;
+}
+@media(max-width:952){
+    a{
+        font-size:16px;
+    }
+    .logo{
+        font-size:20px;
+        padding-left:50px;
+    }
+
+}
+@media(max-width:){
+    .checkbtn{
+        display:block;
+    }
+    .btn{
+        position:fixed;
+        width:100%;
+        height:100vh;
+        background:#2c3e50;
+        top:80px;
+        left:0;
+        text-align:center;
+    }
+    .ox{
+        display:block;
+
+    }
+    a{
+        font-size:20px;
+    }
+    a:hover.a.active{
+        background:no-repeat;
+        color:#0082e6;
+    }
+    #check:checked ~ .ox{
+        left:0;
+    }
+}

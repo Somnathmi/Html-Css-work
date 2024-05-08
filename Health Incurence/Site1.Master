@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Health_Incurence.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Site1.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 202px;
+        }
+    </style>
+</head>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    <body style="height: 16px">
+    <form id="form1" runat="server" class="auto-style1">
+    <div class="contsiner">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="*">
+                        <span class="icons"></span>
+                        <span class="title">brand name</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="WebForm1.aspx>
+                        NavigationUrl="~/WebForm1.aspx"
+                        <span class="icons"><i class="fa-solid fa-gauge-high"></i></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="*">
+                        <span class="icons"> <i class="fa-brands fa-product-hunt"></i></span>
+                        <span class="title">Apply Policy</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="*">
+                        <span class="icons"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                        <span class="title">History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="*">
+                        <span class="icons"><i class="fa-solid fa-question"></i></span>
+                        <span class="title">Ask Question</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="*">
+                        <span class="icons"><i class="fa-solid fa-arrows-rotate"></i></span>
+                        <span class="title">Question History</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <main>
+             <div class="cards">
+                 <div class="card-single">
+                     <div>
+                         <h1>4</h1>
+                         <span>Available Policy</span>
+                     </div>
+                     <div>
+                          <i class="fa-brands fa-product-hunt"></i>
+                     </div>
+                 </div>
+
+                 <div class="card-single">
+                     <div>
+                         <h1>0</h1>
+                         <span>Applied Policy</span>
+                     </div>
+                     <div>
+                          <i class="fa-brands fa-product-hunt"></i>
+                     </div>
+                 </div>
+
+                 <div class="card-single">
+                     <div>
+                         <h1>4</h1>
+                         <span>Policy Categories</span>
+                     </div>
+                     <div>
+                          <<i class="fa-solid fa-list"></i>
+                     </div>
+                 </div>
+
+                <div class="card-single">
+                     <div>
+                         <h1>0</h1>
+                         <span>Total Question Asked</span>
+                     </div>
+                     <div>
+                         <i class="fa-solid fa-question"></i>
+                     </div>
+                 </div>  
+               
+           
+                 
+              
+          
+       </div>
+        </main>
+    </div>
+       
+    </form>
+</body>
+</asp:ContentPlaceHolder>
+</html>
+
+

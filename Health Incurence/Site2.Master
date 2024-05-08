@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Health_Incurence.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="firstpage.css" rel="stylesheet" />
+</head>
+<body>
+     <form id="form1" runat="server">
+        <div id="navbar">
+
+            <br />
+
+            <a id="logo" href="*">Health Insurance</a>
+            <a href="hello customer.aspx" id="cu">Customer</a>
+            <a href="*t" id="cu">Admin</a>
+            <a href="*" id="about">About Us</a>
+            <a href="contact Us" id="ab">Contact us</a>
+            <input placeholder="search Health Insurance.in" id="ab"/>
+             <button id="ab">Search</button>
+
+        </div>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
+ 
